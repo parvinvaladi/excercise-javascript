@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="share.css">
+    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="#">Add</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="products.html">Products</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="login.html"><i class="fa fa-sign-out" style="font-size:32px;"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <form id="form" class="form">
+        <h1 class="header">Add Product</h1>
+        <div class="form-control">
+            <input type="text" placeholder="name of product" class="input" id="name">
+            <small>Error message</small>
+        </div>    
+        <div class="form-control">
+            <input type="text" placeholder="price of product" class="input" id="price">
+            <small>Error message</small>
+        </div>  
+        <div class="form-control">  
+            <input type="text" placeholder="url of image" class="input" id="url">
+            <small>Error message</small>
+        </div>
+        <button class="button">Submit</button>
+        
+    </form>
+
+    <footer class="footer">
+        <nav>
+            <ul class="footer__links">
+                <li class="footer__link">
+                    <a href="#">Support</a>
+                </li>
+                <li class="footer__link">
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="add.js"></script>
+</body>
+</html>
